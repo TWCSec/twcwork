@@ -16,6 +16,29 @@
 	<files>
 		<filename plugin="twcwork">twcwork.php</filename>
 	</files>
-	<params>
-	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field	name="email_to"
+						label="Email Debug To"
+						required="required"
+						type="email"
+						validate="email"
+						size="50"
+						default="matt@twcsec.com"
+						/>
+
+				<field	name="email_group"
+						label="Email Debug Groups"
+						required="required"
+						type="usergroup"
+						default="8"
+						multiple="multiple"
+						size="10"
+						/>
+
+			</fieldset>
+		</fields>
+	</config>
 </extension>
