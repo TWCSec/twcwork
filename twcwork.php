@@ -1,11 +1,11 @@
 <?php
 /**
- * J!Dump
+ * TWCWork
  * @version      $Id$
- * @package      jdump
- * @copyright    Copyright (C) 2007 Mathias Verraes. All rights reserved.
+ * @package      twcwork
+ * @copyright    Copyright (C) 2013 Thimbleweed Consulting. All rights reserved.
  * @license      GNU/GPL
- * @link         https://github.com/mathiasverraes/jdump
+ * @link         https://github.com/TWCSec/twcwork
  */
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
